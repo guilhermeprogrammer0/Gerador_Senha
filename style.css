@@ -25,7 +25,6 @@ body {
     align-items: center;
     flex-direction: column;
     border-radius: 9px;
-    padding: 10px;
 }
 
 .gerador-senha h1 {
@@ -110,26 +109,19 @@ body {
 
 @media screen and (max-width:768px) {
     .gerador-senha {
-        margin: auto;
-        width: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        border-radius: 9px;
-        padding: 10px;
+        width: 100%;
+        border:solid 3px red;
+     
     }
 
     .gerador-senha h1 {
-        font-family: 'Bebas Neue';
-        color: #F2F2F2;
-        font-size: 2.6em;
+        font-size: 2.5em;
     }
 
     .area-tamanho-senha .tamanho {
-        font-size: 1em;
+        font-size: 14px;
         color: white;
-        margin: 20px;
+        margin: 10px;
     }
 
     .btn-gerar {
