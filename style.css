@@ -110,16 +110,15 @@ body {
 @media screen and (max-width:768px) {
     .gerador-senha {
         width: 100%;
-        border:solid 3px red;
-     
+    
     }
 
     .gerador-senha h1 {
-        font-size: 2.5em;
+        font-size: 3em;
     }
 
     .area-tamanho-senha .tamanho {
-        font-size: 14px;
+        font-size: 17px;
         color: white;
         margin: 10px;
     }
